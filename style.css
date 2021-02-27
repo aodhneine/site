@@ -1,0 +1,62 @@
+/* Reset stupid defaults. */
+h1, h2, p {
+  margin: 0;
+}
+
+body {
+  max-width: 50em;
+  margin: 0 auto;
+  margin-top: 1em;
+  color: #080808;
+  font-family: monospace;
+  font-size: 8pt;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+}
+
+header p {
+  margin-left: 1em;
+}
+
+header p span {
+  color: #9999b8;
+}
+
+header img {
+  width: 75px;
+  height: 75px;
+  border-radius: 5px;
+}
+
+header a {
+  font-weight: bold;
+}
+
+article {
+  margin-top: 2rem;
+}
+
+article h2 {
+  letter-spacing: -0.4px;
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: .25rem;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:visited {
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: underline;
+}
