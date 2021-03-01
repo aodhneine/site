@@ -3,6 +3,8 @@ h1, h2, p {
   margin: 0;
 }
 
+/* Gosh this CSS is so utterly hackish. */
+
 body {
   max-width: 50em;
   margin: 0 auto;
@@ -51,7 +53,7 @@ article {
   margin-top: 2rem;
 }
 
-article h2 {
+h2 {
   letter-spacing: -0.4px;
   font-size: 1rem;
   font-weight: 500;
@@ -69,4 +71,44 @@ a:visited {
 
 a:hover {
   text-decoration: underline;
+}
+
+div {
+  margin-top: 1em;
+}
+
+body > p {
+  margin-bottom: 1em;
+}
+
+div.figure > img {
+  display: block;
+  margin: 1em auto;
+}
+
+div.figure > p {
+  text-align: center;
+  color: #54545c;
+  margin-bottom: 1em;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+nav h2 {
+  margin-left: .5em;
+}
+
+/*p em {
+  font-style: normal;
+  background-color: #a1e6cd;
+}*/
+
+code {
+  color: #8f0e0e;
+  background-color: #f0f0f0;
+  padding: 0 .4em;
+  border-radius: .4em;
 }
